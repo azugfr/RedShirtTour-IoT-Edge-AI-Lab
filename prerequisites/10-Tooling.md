@@ -2,12 +2,12 @@
 
 <p><em>Authors : Artem SHEYKO + Taras CHIEN
 Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
-<p><strong><em>A - PARTIE DATASCIENCE</em> : Développement et déploiement des modules contenant Azure Machine Learning en tant que modules IoT Edge</strong></p>
+<p><strong><em>A - ON THE  DATASCIENCE SIDE</em> : Développement et déploiement des modules contenant Azure Machine Learning en tant que modules IoT Edge</strong></p>
 <ol>
 <li>Installer Anaconda : <a href="https://conda.io/docs/user-guide/install/index.html">https://conda.io/docs/user-guide/install/index.html</a> et vérifier que pip est installé (Win + R -&gt; cmd -&gt; pip -V)</li>
 <li>Installer Machine Learning Workbench : <a href="https://aka.ms/azureml-wb-msi">https://aka.ms/azureml-wb-msi</a></li>
 </ol>
-<p><strong><em>B - PARTIE DEVELOPPEUR</em> : Développement et déploiement des modules contenant la logique personnalisée et des services Azure</strong>*</p>
+<p><strong><em>B - ON THE DEVELOPPER SIDE</em> : Développement et déploiement des modules contenant la logique personnalisée et des services Azure</strong>*</p>
 <p>Cette partie part du principe que le lecteur utilise un ordinateur exécutant Windows pour simuler un appareil Internet des Objets (IoT).</p>
 <p>Pour commencer à travailler avec Azure IoT Edge et passer le processus de création des modules, il faut:</p>
 <ol>
@@ -32,3 +32,5 @@ Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
 </li>
 </ol>
 
+<p><strong><em>C - ON THE DEVICE</em> : </strong></p>
+<li>Install Python 2.7.x</li>
