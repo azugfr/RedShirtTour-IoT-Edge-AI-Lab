@@ -14,3 +14,6 @@ The Labs are based on true example of Drones transporting parcels, but with simp
 <img src="https://raw.githubusercontent.com/azugfr/RedShirtTour-IoT-Edge-AI-Lab/master/img/drone_%28C%29_openfogconsortium.org.jpg" alt="IoT Edge with emedded Machine Learning inside a Drone. Image source : openfogconsortium.org">
 >image source: https://www.openfogconsortium.org
 
+
+Here is the overall architecture of the Labs
+<img src="https://raw.githubusercontent.com/azugfr/RedShirtTour-IoT-Edge-AI-Lab/master/img/Overview-architecture.png" alt="Overall architecture of the Labs">

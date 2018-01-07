@@ -1,4 +1,4 @@
-# **~~~~ Prerequisites of tool installation ~~~~ **</p>
+# **~~~~ Prerequisites of tool installation ~~~~ **
 
 <p><em>Authors : Artem SHEYKO + Taras CHIEN
 Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
