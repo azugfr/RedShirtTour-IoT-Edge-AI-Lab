@@ -1,11 +1,7 @@
----
-
-
----
+# **~~~~ Prerequisites of tool installation ~~~~ **</p>
 
 <p><em>Authors : Artem SHEYKO + Taras CHIEN
 Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
-<p>**~~~~ Prérequis d’outillage à installer ~~~~ **</p>
 <p><strong><em>A - PARTIE DATASCIENCE</em> : Développement et déploiement des modules contenant Azure Machine Learning en tant que modules IoT Edge</strong></p>
 <ol>
 <li>Installer Anaconda : <a href="https://conda.io/docs/user-guide/install/index.html">https://conda.io/docs/user-guide/install/index.html</a> et vérifier que pip est installé (Win + R -&gt; cmd -&gt; pip -V)</li>
