@@ -34,3 +34,4 @@ Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
 
 <p><strong><em>C - ON THE DEVICE</em> : </strong></p>
 <li>Install Python 2.7.x</li>
+<li>Install Docker</li>
