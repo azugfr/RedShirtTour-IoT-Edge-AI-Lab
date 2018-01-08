@@ -1,5 +1,5 @@
 # RedShirtTour-IoT-Edge-AI-Lab
-(for English version, see Readme-EN.md)
+(for English version, see Readme.md)
 <p><em>Authors : Artem SHEYKO + Taras CHIEN
 Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
 
