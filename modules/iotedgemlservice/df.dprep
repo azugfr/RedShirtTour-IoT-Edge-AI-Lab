@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 39,
+  "id": "2e5f4833-73aa-4afe-8bdf-e24e32ecf616",
+  "activities": [
+    {
+      "id": "fabf96e3-6177-4921-8d3a-5d80bb487425",
+      "name": "df",
+      "blocks": [
+        {
+          "id": "475e1085-f0e3-4a0c-8476-de6d2bd77f1a",
+          "type": "Microsoft.DPrep.ReferenceActivityBlock",
+          "arguments": {
+            "reference": {
+              "referenceType": 1,
+              "referenceContainerPath": "./df.dsource",
+              "referencedActivityId": "d117e0a8-2d95-401e-bc03-c635774658e8",
+              "referencedBranchId": null,
+              "referencedStep": null,
+              "anonymousSteps": null
+            }
+          }
+        },
+        {
+          "id": "6ace1610-29e1-429b-b382-20a92d14dab5",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "machine_temperature",
+            "columnId": "Column1"
+          }
+        },
+        {
+          "id": "169b1c6b-f43e-45ce-90b6-a48e169a8954",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "pressure",
+            "columnId": "Column2"
+          }
+        },
+        {
+          "id": "2d71cb82-f39c-46e9-b2f3-4e06582c1979",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "ambient_temperature",
+            "columnId": "Column3"
+          }
+        },
+        {
+          "id": "e315d5a9-f489-4fe5-88cd-44a3c013ffd9",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "humidity",
+            "columnId": "Column4"
+          }
+        },
+        {
+          "id": "4921d1a9-fde8-4189-99b5-c70cd3b4310a",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "severity_status",
+            "columnId": "Column5"
+          }
+        },
+        {
+          "id": "d4ecda33-7acc-46af-807c-9f8ab5f18457",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "machine_pressure",
+            "columnId": "pressure"
+          }
+        },
+        {
+          "id": "3d6c99d9-d7e8-4dc1-8118-16818a5cbae4",
+          "type": "Microsoft.DPrep.ColumnRenameBlock",
+          "arguments": {
+            "newColumnId": "ambient_humidity",
+            "columnId": "humidity"
+          }
+        }
+      ],
+      "inspectors": [
+        {
+          "id": "fe99cc8d-7ece-4993-80d1-b1f9a2780d41",
+          "type": "Microsoft.DPrep.DataQualityInspector",
+          "arguments": {},
+          "reference": {
+            "referenceType": 0,
+            "referenceContainerPath": null,
+            "referencedActivityId": "fabf96e3-6177-4921-8d3a-5d80bb487425",
+            "referencedBranchId": null,
+            "referencedStep": {
+              "stepReferenceType": 1,
+              "referencedStepId": null,
+              "fallback": 1
+            },
+            "anonymousSteps": null
+          },
+          "isBackground": false
+        }
+      ]
+    }
+  ],
+  "runConfigurations": []
+}

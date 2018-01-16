@@ -1,0 +1,54 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug IoT Edge Module (.NET Core)",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickRemoteProcess}",
+            "pipeTransport": {
+                "pipeProgram": "docker",
+                "pipeArgs": [
+                    "exec",
+                    "-i",
+                    "<container_name>",
+                    "sh",
+                    "-c"
+                ],
+                "debuggerPath": "~/vsdbg/vsdbg",
+                "pipeCwd": "${workspaceFolder}",
+                "quoteArgs": true
+            },
+            "sourceFileMap": {
+                "/app": "${workspaceFolder}"
+            },
+            "justMyCode": true
+        },
+        {
+            "name": "Debug IoT Edge Function (.NET Core)",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickRemoteProcess}",
+            "pipeTransport": {
+                "pipeProgram": "docker",
+                "pipeArgs": [
+                    "exec",
+                    "-i",
+                    "<container_name>",
+                    "sh",
+                    "-c"
+                ],
+                "debuggerPath": "~/vsdbg/vsdbg",
+                "pipeCwd": "${workspaceFolder}",
+                "quoteArgs": true
+            },
+            "sourceFileMap": {
+                "/home/site/wwwroot": "${workspaceFolder}"
+            },
+            "justMyCode": true
+        }
+    ]
+}
