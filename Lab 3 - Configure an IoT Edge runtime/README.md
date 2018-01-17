@@ -4,7 +4,7 @@
 
 In the [previous lab](/Lab%202%20-%20Register%20an%20IoT%20Edge%20Device) we have registered an IoT Edge Device. In this lab we will see how to configure an IoT Edge runtime.
 
-<img src="../img/lab_3_0.png" alt="">
+<img src="../img/lab_3.png" alt="">
 
  
 
@@ -26,13 +26,13 @@ The IoT Edge runtime is deployed on all IoT Edge devices. It comprises two modul
 
    `docker ps`
 
-   <img src="../img/lab_3_1.png" alt="">
+   <img src="../img/lab_3_0.png" alt="">
 
    ​
 
    3.2. In Azure portal on device's page:
 
-   <img src="../img/lab_3_2.png" alt="">
+   <img src="../img/lab_3_1.png" alt="">
 
 
 

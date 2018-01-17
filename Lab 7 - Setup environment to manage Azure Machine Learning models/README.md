@@ -1,14 +1,14 @@
-## Setup environment to manage Azure Machine Learning models
+## Setup an environment to manage Azure Machine Learning models
 
 
+
+[The previous lab](/Lab%206%20-%20Create%20and%20deploy%20a%20process%20data%20module) describes how to create and deploy a data filter module. In this lab we will setup an environment to manage Azure Machine Learning models.
 
 **Objective:** configure the environment to manage Azure ML models.
 
- 
 
 Azure ML model management enables you to effectively deploy and manage Machine Learning models that are built with different frameworks, including SparkML, Keras, TensorFlow, Microsoft Cognitive Toolkit or Python.
 
- 
 
 To use Command Line Interfaces (CLIs) from Azure Machine Learning Workbench you must execute commands in the command prompt (Win+ R):
 
@@ -74,7 +74,5 @@ To use an existing account, use the following command:
 
 `az ml account modelmanagement set -n [Model management account name] -g [Resource group name]`
 
-
-
-The model management environment is configured and ready for deployment of machine learning models.
+The model management environment is configured and ready for [creating and deployment of the Machine Learning models](/Lab%208%20-%20Create%20an%20Azure%20Machine%20Learning%20model%20for%20an%20IoT%20Edge%20module).
 

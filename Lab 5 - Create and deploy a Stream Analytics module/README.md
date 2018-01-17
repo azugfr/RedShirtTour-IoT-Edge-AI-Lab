@@ -4,6 +4,12 @@
 
 [The previous lab](/Lab%204%20-%20Create%20and%20deploy%20a%20module%20which%20will%20generate%20telemetry%20data) describes how to create and deploy a module which sends a telemetry data every second. In this lab, we will use an Azure Stream Analytics module to get an aggregated values. 
 
+
+
+<img src="../img/lab_5.png" alt="">
+
+
+
 1. In the Azure portal, go to **New** -> **Storage**, and then select **Storage account - blob, file, table, queue**.
 
    <img src="../img/lab_5_0.png" alt="">
@@ -92,4 +98,4 @@
 
 
 
-Go to [next lab](/Lab%206%20-%20Create%20and%20deploy%20a%20data%20filter%20module) to see how create and deploy a custom logic module which will process the aggregated data. 
+Go to [next lab](/Lab%206%20-%20Create%20and%20deploy%20a%20process%20data%20module) to see how create and deploy a custom logic module which will process the aggregated data. 

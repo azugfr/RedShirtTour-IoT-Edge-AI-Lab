@@ -11,6 +11,12 @@
 Process data module described below can be useful in case when some sensor send an incorrect data or did not send anything due to a connection issue as an incorrect value can be replaced by a predefined value.
 
 
+
+<img src="../img/lab_6.png" alt="">
+
+
+
+
 1. Create a new IoT Edge module via Visual Studio Code (detailed description of how this can be done can be found [here](/Lab%204%20-%20Create%20and%20deploy%20a%20module%20which%20will%20generate%20telemetry%20data)).
 
 2. Add the next statements:
@@ -201,30 +207,30 @@ Process data module described below can be useful in case when some sensor send 
    ```
 
 
-7. Delete the method **PipeMessage** as no longer usable.
-8. Build and push a new docker image from this project (for example: `edgecontainerreg.azurecr.io/datafilter:latest`).
+8. Delete the method **PipeMessage** as no longer usable.
+9. Build and push a new docker image from this project (for example: `edgecontainerreg.azurecr.io/datafilter:latest`).
 
-9. Add a new module to your Edge device. In the Azure portal navigate to your device, then click **Set Module -> Add IoT Edge Module** and set name, image URI and desired properties JSON.
+10. Add a new module to your Edge device. In the Azure portal navigate to your device, then click **Set Module -> Add IoT Edge Module** and set name, image URI and desired properties JSON.
 
-   <img src="../img/lab_6_0.png" alt="">
+  <img src="../img/lab_6_0.png" alt="">
 
 
-10. Click **Next** and modify routes.
+11. Click **Next** and modify routes.
 
-  ```json
-  {
-    "routes": {
-      "telemetryToAsa": "FROM /messages/modules/telemetrysensor/* INTO BrokeredEndpoint(\"/modules/EdgeJob-01/inputs/telemetryData\")",
-      "AsaToFiltration": "FROM /messages/modules/EdgeJob-01/outputs/averageData INTO BrokeredEndpoint(\"/modules/processdata/inputs/input1\")",
-      "filtrationToIoTHub1": "FROM /messages/modules/processdata/outputs/output1 INTO $upstream",
-      "filtrationToIoTHub2": "FROM /messages/modules/processdata/outputs/output2 INTO $upstream"
-    }
-  }
-  ```
+   ```json
+   {
+     "routes": {
+       "telemetryToAsa": "FROM /messages/modules/telemetrysensor/* INTO BrokeredEndpoint(\"/modules/EdgeJob-01/inputs/telemetryData\")",
+       "AsaToFiltration": "FROM /messages/modules/EdgeJob-01/outputs/averageData INTO BrokeredEndpoint(\"/modules/processdata/inputs/input1\")",
+       "filtrationToIoTHub1": "FROM /messages/modules/processdata/outputs/output1 INTO $upstream",
+       "filtrationToIoTHub2": "FROM /messages/modules/processdata/outputs/output2 INTO $upstream"
+     }
+   }
+   ```
 
-  Check the output result data.
+   Check the output result data.
 
-  <img src="../img/lab_6_1.png" alt="">
+   <img src="../img/lab_6_1.png" alt="">
 
 
 For now, we have a module which generates a raw data, an Azure Stream Analytics module that converts values to aggregated data and module described above does a data treatment. So, we can now apply a Machine Learning algorithms to unlock data insides. Proceed to [the next lab](/Lab%207%20-%20Setup%20environment%20to%20manage%20Azure%20Machine%20Learning%20models) to setup an environment to manage Azure Machine Learning models.

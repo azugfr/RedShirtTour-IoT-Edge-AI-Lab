@@ -2,6 +2,10 @@
 
 
 
+<img src="../img/lab_9.png" alt="">
+
+
+
 To deploy a [previously created model](/Lab%208%20-%20Create%20an%20Azure%20Machine%20Learning%20model%20for%20an%20IoT%20Edge%20module), we need to create a scoring file with init() and run() functions. The following code can be used to create a score.py file:
 
 ```python
