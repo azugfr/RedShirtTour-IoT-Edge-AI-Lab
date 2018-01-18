@@ -2,7 +2,7 @@
 
 
 
-One of the ways to view model results is to use an Azure Time Series Insights service.
+One of the ways to view previously [created](/Lab%208%20-%20Create%20an%20Azure%20Machine%20Learning%20model%20for%20an%20IoT%20Edge%20module) and [deployed](/Lab%209%20-%20Deploy%20an%20Azure%20Machine%20Learning%20model%20as%20an%20IoT%20Edge%20module) model results is to use an Azure Time Series Insights service.
 
 The advantages of using Azure Time Series Insights include:
 
@@ -81,7 +81,7 @@ To get started with Time Series Insights and to visualize model application resu
 
 10. By adding another term, you can correlate the different line charts.
 
-   <img src="../img/lab_10_15.png" alt="">
+  <img src="../img/lab_10_15.png" alt="">
 
 
 11. You can filter the series shown in the visualization using input box.

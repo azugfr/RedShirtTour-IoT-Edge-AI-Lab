@@ -38,3 +38,6 @@
 
    <img src="../img/lab_1_3.png" alt="">
 
+
+
+In the [next lab](/Lab%202%20-%20Register%20an%20IoT%20Edge%20Device) we will register an IoT Edge Device.
