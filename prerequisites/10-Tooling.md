@@ -5,6 +5,11 @@ Contributor : Vincent Thavonekham + Igor Leontiev</em></p>
 <p><strong><em>A - ON THE  DATASCIENCE SIDE</em> : Développement et déploiement des modules contenant Azure Machine Learning en tant que modules IoT Edge</strong></p>
 <ol>
 <li>Installer Anaconda : <a href="https://conda.io/docs/user-guide/install/index.html">https://conda.io/docs/user-guide/install/index.html</a> et vérifier que pip est installé (Win + R -&gt; cmd -&gt; pip -V)</li>
+(else use your favorite search engine on "install pip windows" (or linux! ). For Windows, it is here : 
+
+<a href="https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation"> 
+https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation  </a>
+
 <li>Installer Machine Learning Workbench : <a href="https://aka.ms/azureml-wb-msi">https://aka.ms/azureml-wb-msi</a></li>
 </ol>
 <p><strong><em>B - ON THE DEVELOPPER SIDE</em> : Développement et déploiement des modules contenant la logique personnalisée et des services Azure</strong>*</p>
