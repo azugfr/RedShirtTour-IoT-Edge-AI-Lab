@@ -26,7 +26,26 @@ Learn how to create a custom logic modules, use Azure Stream Analytics and Machi
 
 
 
+Simplified hypothesis for the sake of this HOL (see advanced and realistic version in the [PDF](/Red%20Shirt%20Dev%20Tour%20Hands-On%20Lab%202nd%20Series.pdf)):
+
+In this HOL, the Data Generation module (that mimics the Drone) sends real-time data to Azure Stream Analytics (ASA).
+
+However, often times, data are corrupted or could be wrong. Here, let us assume that we are tracking if the battery with two cells sends back a realistic value.
+
 <img src="img/root_1.jpg">
+
+ASA aggregates the data so that less data are streamed across the wire to Azure, then the next module is able to detect the corruption in real-time:
+
+- If one cell of the battery is KO, we are raising an error, then we call the module “Data treatment” to correct the error (by taking the default expected value, multiply by the number of expected cells)
+- If everything is fine, there is no post-data treatment
+
+In all cases, we perform a ML treatment (using “Python ML Model” written using Azure ML).
+
+ 
+
+Finally, we send all this to Azure Cloud, hitting Azure IoT Hub, then display all this on TimeSeries Insights
+
+
 
 Get started quickly with Hands-On Labs :
 
