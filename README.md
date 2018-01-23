@@ -65,6 +65,9 @@ Get started quickly with Hands-On Labs :
 For more examples discover more examples in [Next Steps](/Red%20Shirt%20Dev%20Tour%20Hands-On%20Lab%202nd%20Series.pdf).
 
 # RedShirtTour-IoT-Edge-AI-Lab-VMTemplate
+
+//Prepared VM with preinstaled software for the HOL
+
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/Jiycefer/RedShirtTour-IoT-Edge-AI-Lab-VMTemplate?ptmpl=azuredeploy.parameters.json)
 
 /!\ Attention. The exectuion of script can take long, due to the size of VM (127 GB), also you can arrive of Timeout Exeption
