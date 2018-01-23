@@ -66,6 +66,7 @@ For more examples discover more examples in [Next Steps](/Red%20Shirt%20Dev%20To
 
 # RedShirtTour-IoT-Edge-AI-Lab-VMTemplate
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/Jiycefer/RedShirtTour-IoT-Edge-AI-Lab-VMTemplate?ptmpl=azuredeploy.parameters.json)
+
 /!\ Attention. The exectuion of script can take long, due to the size of VM (127 GB), also you can arrive of Timeout Exeption
 
 This is Work-In-Progress so new Labs will be added and others will be refined on an on-going basis. 
