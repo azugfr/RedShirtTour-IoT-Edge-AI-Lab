@@ -184,7 +184,7 @@ Process data module described below can be useful in case when some sensor send 
 7. In the method **Init** change the line :
 
    ```c#
-   await ioTHubModuleClient.SetImputMessageHandlerAsync("input1", PipeMessage, iotHubModuleClient);
+   await ioTHubModuleClient.SetInputMessageHandlerAsync("input1", PipeMessage, iotHubModuleClient);
    ```
 
    by the next lines :
