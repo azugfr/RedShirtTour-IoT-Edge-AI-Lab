@@ -76,7 +76,9 @@ This is Work-In-Progress so new Labs will be added and others will be refined on
 
 # Souvenir of the RedShirtTour
 
-These 10 Labs has been made public and presented when Scott Guthrie came over in Paris during the Microsoft RedShirt Tour https://twitter.com/hashtag/redshirtdevtour?src=hash. 
+These 10 Labs has been made public and presented when Scott Guthrie came over in Paris during the Microsoft RedShirt Tour https://twitter.com/hashtag/redshirtdevtour?src=hash 
+https://twitter.com/ShelPF/status/955804078122168321?s=20 
+https://twitter.com/vThavo/status/955806487988850688?s=20
 
 Here is a souvenir of us with Scott Gu !
 
